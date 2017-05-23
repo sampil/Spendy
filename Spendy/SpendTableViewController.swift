@@ -82,9 +82,20 @@ class SpendTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             
-            // Delete the row from the data source
+            let spendItemToDelete = spendItemArray[indexPath.row]
+            
+            // Delete all expenses for deleting spend Item
+            let expensesToDelete = realm.objects(Expense.self).filter("spendItem = %@", spendItemToDelete)
+            
+            for expense in expensesToDelete {
+                try! realm.write {
+                    realm.delete(expense)
+                }
+            }
+                
+            // Delete spend item from the data source
             try! realm.write {
-                realm.delete(spendItemArray[indexPath.row])
+                realm.delete(spendItemToDelete)
             }
             
             // Delete spend item from array
