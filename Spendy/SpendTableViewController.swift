@@ -151,7 +151,7 @@ class SpendTableViewController: UITableViewController {
             }
             
             let selectedSpendItem = spendItemArray[indexPath.row]
-            // TODO deal with optional
+            
             newExpenseViewController.spendItem = selectedSpendItem
             
         default:
