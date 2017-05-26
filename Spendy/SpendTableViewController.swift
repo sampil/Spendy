@@ -33,6 +33,7 @@ class SpendTableViewController: UITableViewController {
         // Load the sample data.
         if realm.objects(SpendItem.self).count < 1 {
             loadSampleSpendItems()
+            print("Sample items added")
         }
         
     }
