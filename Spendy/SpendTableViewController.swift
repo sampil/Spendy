@@ -40,7 +40,6 @@ class SpendTableViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         refillSpendItemArray()
-        print("ppend item array refilled on apper")
         // Reload the table
         self.tableView.reloadData()
     }
