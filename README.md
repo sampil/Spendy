@@ -1,8 +1,10 @@
 # Spendy
-iOS finance tracker, developed by Semyon Pilyukov from scratch
 
-Spendy – собственное приложение, написанное с нуля. 
-В даннный момент основной функционал готов, остаеется подготовка к выкладке в AppStore.
+Available at App Store: https://itunes.apple.com/ru/app/spendycash/id1254846776?l=en&mt=8
+
+iOS finance tracker, developed by Semyon Pilyukov from scratch at start of career.
+
+Spendy – собственное приложение, написанное с нуля.
 Приложение – учет личных расходов:
 - Создание категорий расходов, удаление, изменение порядка
 - Создание новых расходов в выбранной категории
