@@ -1,6 +1,6 @@
 # Spendy
 
-Available at App Store: https://itunes.apple.com/ru/app/spendycash/id1254846776?l=en&mt=8
+Available on the App Store: https://itunes.apple.com/ru/app/spendycash/id1254846776?l=en&mt=8
 
 iOS finance tracker, developed by Semyon Pilyukov from scratch at start of career.
 
